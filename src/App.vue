@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       
-      <router-link to="/user">user</router-link>
+      <router-link to="/user">user</router-link> |
       <router-link to="/geolocationdemo">Geolocation</router-link>
     </div>
     <router-view/>
