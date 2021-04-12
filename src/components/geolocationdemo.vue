@@ -8,13 +8,13 @@
 <script>
 export default {
     name: "geolocationdemo",
-    props: ['pos'],
+    props: [],
     created: function() {
         //do we support geolocation
-        // if(!("geolocation" in navigator)) {
-        //     this.errorStr = 'Geolocation is not available.';
-        //     return;
-        // }
+        if(!("geolocation" in navigator)) {
+            this.errorStr = 'Geolocation is not available.';
+            return;
+        }
     },
     data: function() {
         return {

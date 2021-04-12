@@ -1,18 +1,16 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Device Integration Home Page</h1>
+    <p>Follow the links above to see each respective device integration.</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  components: { 
   }
 }
 </script>

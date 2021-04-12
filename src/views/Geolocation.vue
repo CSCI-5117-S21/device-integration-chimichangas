@@ -1,6 +1,5 @@
 <template>
   <div class="Geolocation">
-    <img alt="Vue logo" src="../assets/logo.png">
     <h1>Geolocation demo</h1>
     <geolocationdemo></geolocationdemo>
   </div>

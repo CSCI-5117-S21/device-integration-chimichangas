@@ -5,7 +5,8 @@
       <router-link to="/about">About</router-link> |
       
       <router-link to="/user">user</router-link> |
-      <router-link to="/geolocationdemo">Geolocation</router-link>
+      <router-link to="/geolocationdemo">Geolocation</router-link> |
+      <router-link to="/audiorecorder"> Audio Recorder</router-link> 
     </div>
     <router-view/>
   </div>
