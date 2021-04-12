@@ -1,8 +1,12 @@
 <template>
 <div>
+    <p>Message:</p>
     <input v-model="newWord" />
+    <p>Reminder Time (ms):</p>
     <input v-model="time" />
-    <button @click="addWord" > Allow Notifications </button>
+    <br>
+    <br>
+    <button @click="addWord" > Set Notification </button>
 </div>
 </template>
 <script>
@@ -42,8 +46,8 @@ export default {
                 notification.onclick = function(event) {
                     event.preventDefault();
                     // window.open('http://www.google.com', '_blank');
-                    // window.open('/', '_blank');
-                    window.open(window.location.href, '_blank');
+                    window.open('/', '_blank');
+                    // window.open(window.location.href, '_blank');
                 }
             } catch (err) {
                 alert('Notification API error: ' + err);
