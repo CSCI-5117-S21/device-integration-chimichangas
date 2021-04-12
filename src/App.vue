@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/geolocationdemo">Geolocation</router-link> |
-      <router-link to="/audiorecorder"> Audio Recorder</router-link> 
+      <router-link to="/audiorecorder"> Audio Recorder</router-link> |
+      <router-link to="/localnotifications"> Local Notifications</router-link> 
     </div>
     <router-view/>
   </div>
