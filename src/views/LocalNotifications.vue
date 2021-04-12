@@ -32,10 +32,6 @@ export default {
                 break;
                 }
             }
-            if (!('Notification' in window)) {
-                alert('Notification API not supported!');
-                return;
-            }
             try {
                 var notification;
                 if(this.newWord == "") {
