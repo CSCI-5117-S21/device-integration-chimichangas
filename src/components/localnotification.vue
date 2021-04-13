@@ -14,6 +14,8 @@ export default {
     name: "localnotifications",
     data: function() {
         return {
+            newMessage: "",
+            time: ""
         }
     },
     methods: {
